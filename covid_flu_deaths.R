@@ -7,10 +7,9 @@ library(scales)
 # read in file
 dat0 <- read.csv(file = 'data/National_2015-20_Data.csv')
 
+file_dg = file.path('data', 'time_series_covid19_deaths_global.csv')
 # download US deaths from COVID 19 dataset
 {
-  file_dg = file.path('data', 'time_series_covid19_deaths_global.csv')
-  
   # URL for Johns Hopkins timeseries of deaths from covid-19
   URL_dg <- 'https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
   

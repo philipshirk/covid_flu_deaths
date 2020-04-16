@@ -1,7 +1,7 @@
-Weekly covid-19 & flu deaths
+Weekly covid-19 & flu deaths in the USA
 ===============
 
-Create a simple plot of weekly covid-19 deaths compared to flu deaths
+Create a simple plot of weekly covid-19 deaths compared to flu deaths for the USA
 
 ## Requires
 
